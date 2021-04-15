@@ -1,7 +1,36 @@
-div{
-    height: 10px;
-    width: 10px;
-}
-.primaryColor{
-    background-color: aquamarine;
-}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+  }
+  body{
+    padding: 10px;
+  }
+  
+  div{
+      height: 50px;
+      width: 50px;
+  }
+  
+  section{
+    background-color: rgba(200, 200, 200, .5);
+    padding: 20px;
+    margin: 2% 0;
+  }
+  
+  p{
+    font-style: italic;
+    /* font-weight: 100; */
+  }
+  
+  .primaryColor{
+      background-color: #333366;
+  }
+  
+  .secondaryColor{
+      background-color: #337ab7;
+  }
+  
+  .stacked{
+    display: flex;  
+  }
