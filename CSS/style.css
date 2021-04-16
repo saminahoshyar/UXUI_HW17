@@ -13,7 +13,7 @@
     color: #D87057;
   }
 
-  h3{
+  #name{
     box-sizing: border-box;
     margin: 0;
     font-family: 'Inconsolata', monospace;
@@ -82,8 +82,16 @@
 .gray5{
     background-color: #fff;
     border-style: solid;
-    border-color: #504947;
+    border-color: #9F9C9B;
     border-width: 0.1px;
+}
+
+.gradient1{
+    background-image: linear-gradient(to right, #FBC2AD , #FFF6E0);
+  }
+
+.gradient2{
+    background-image: linear-gradient(to right, #D87057, #fff);
 }
 
   .stacked{
@@ -97,3 +105,74 @@
 #titlecolor{
     color: #D87057;
 }
+
+#fontSection{
+    font-family: 'Antic Didone', serif;
+    font-weight: 400;
+    color: #504947;
+}
+
+.whitespace {
+    background-color: #fff;
+    height: 25px;
+}
+
+#fonttitle {
+    color: #D87057;
+}
+#newfont{
+    font-family: 'Inconsolata', monospace;
+    font-weight: 100;
+    color: #504947;
+}
+
+.dot1 {
+    height: 100px;
+    width: 100px;
+    background-color: #FFF6E0;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  .dot2 {
+    height: 65px;
+    width: 65px;
+    background-color: #504947;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  .dot3 {
+    height: 45px;
+    width: 45px;
+    background-color: #D87057;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  .dot4 {
+    height: 25px;
+    width: 25px;
+    background-color: #FBC2AD;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  .dot5 {
+    height: 10px;
+    width: 10px;
+    background-color: #ECCDC8;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  .dot6 {
+    height: 10px;
+    width: 10px;
+    background-color: #D3AC50;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  #moodboardtitle {
+    color: #504947;
+  }
